@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+}
+body{
+    background-image: url("The_Senate_House\,_Madras.png");
+    background-size: cover;
+}
+.dropdown{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin-top: -50px;
+}
+a{
+    display:block;
+    width:200px;
+    background-color: black;
+    color:white;
+    padding: 10px 0;
+    font-size: 1rem;
+    text-align: center;
+
+}
+a:hover{
+    color: rgb(126, 126, 54);
+    border-bottom: 2px solid rgb(103, 116, 79);
+}
+h1{
+    color:white;
+    background-color: black;
+    font-size: 1rem;
+    padding:20px 0;
+}
+.attendence {
+    display: none;
+    list-style-type: none;
+}
+.dropdown li:nth-child(4):hover .attendence{
+    display: block;
+}
+.marksheet {
+    display: none;
+    list-style-type: none;
+}
+.dropdown li:nth-child(3):hover .marksheet{
+    display: block;
+}
